@@ -1,0 +1,19 @@
+{
+  "name": "bender",
+  "version": "0.0.0",
+  "private": true,
+  "author": "jeremy <dje.guido@gmail.com>",
+  "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "feedparser": "^2.2.1",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "string-tokenizer": "0.0.8",
+    "url-regex": "^4.1.1"
+  }
+}
